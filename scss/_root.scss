@@ -1,0 +1,16 @@
+:root {
+   --Very-Dark-Magenta: hsl(300, 43%, 22%);
+   --Soft-Pink: hsl(333, 80%, 67%);
+   --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+   --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+   --White: hsl(0, 0%, 100%);
+
+   --font-family: "spartan", sans-serif;
+   --font-size-400: 0.81rem;
+   --font-size-500: 0.96rem;
+   --font-size-900: 2rem;
+
+   @media (min-width: 50em) {
+      --font-size-900: 3rem;
+   }
+}
