@@ -132,7 +132,7 @@ body {
 
 h1 {
   font-family: "Poppins";
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.5rem;
   color: var(--Very-Dark-Magenta);
   line-height: 1;
@@ -231,7 +231,7 @@ main {
 
 .ratings p.stars {
   font-family: "Poppins";
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   opacity: 0.9;
 }
 
