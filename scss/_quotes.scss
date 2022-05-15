@@ -1,0 +1,62 @@
+.content-quotes {
+   li {
+      &:nth-child(2) {
+         transform: translateY(3rem);
+      }
+      &:nth-child(3) {
+         transform: translateY(6rem);
+      }
+   }
+   blockquote {
+      max-width: 25rem;
+      margin: 0 auto;
+      height: 100%;
+      background-color: var(--Very-Dark-Magenta);
+      color: var(--Light-Grayish-Magenta);
+      text-align: left;
+      border-radius: var(--border-radius);
+      padding: var(--spacer);
+   }
+}
+.split {
+   display: flex;
+   flex-direction: column;
+   @media (min-width: 50em) {
+      flex-direction: row;
+   }
+}
+
+.s-gap{
+   display: flex;
+   gap: 2rem;
+}
+
+img {
+   width: 3rem;
+   border-radius: 50%;
+   @media (min-width: 50em) {
+      margin-right: var(--spacer);
+   }
+}
+.align-c {
+   align-items: center;
+}
+.quote__name {
+   font-weight: 500;
+   font-family: "Poppins";
+}
+.quote__status {
+   color: var(--Soft-Pink);
+   opacity: 0.5;
+}
+.quote {
+   font-family: "Poppins";
+   margin-top: var(--spacer);
+   font-size: 0.8rem;
+   font-weight: 500;
+   opacity: 0.6;
+
+   @media (min-width: 50em) {
+      width: 16.56rem;
+   }
+}
