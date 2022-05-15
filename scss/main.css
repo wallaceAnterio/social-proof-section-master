@@ -300,7 +300,7 @@ img {
 }
 
 .quote__name {
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Poppins";
 }
 
@@ -312,9 +312,8 @@ img {
 .quote {
   font-family: "Poppins";
   margin-top: var(--spacer);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
-  opacity: 0.6;
 }
 
 @media (min-width: 50em) {
